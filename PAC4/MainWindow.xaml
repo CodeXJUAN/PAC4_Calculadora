@@ -5,8 +5,58 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PAC4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Calculadora" Height="450" Width="500">
+    <Grid Background="#ff00003a">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <Border Opacity="0.5" BorderThickness="1" BorderBrush="White" Margin="10,7,10,7" Padding="10">
+            <TextBlock x:Name="DisplayText" 
+                   Grid.Row="0" 
+                   FontSize="24" 
+                   Opacity="0.5"
+                   Foreground="White"/>
+        </Border>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Fila 1 -->
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="0" Grid.Column="0" Content="7" Margin="10,5,10,5" FontSize="20"/>
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="0" Content="8" Margin="2,5,10,5" FontSize="20" Grid.Column="1"/>
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="0" Grid.Column="2" Content="9" Margin="2,5,10,5" FontSize="20"/>
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="0" Grid.Column="3" Content="/" Margin="0,5,10,5" FontSize="20"/>
+
+            <!-- Fila 2 -->
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="1" Grid.Column="0" Content="4" Margin="10,5,10,5" FontSize="20"/>
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="1" Content="5" Margin="2,5,10,5" FontSize="20" Grid.Column="1"/>
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="1" Grid.Column="2" Content="6" Margin="2,5,10,5" FontSize="20"/>
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="1" Grid.Column="3" Content="x" Margin="0,5,10,5" FontSize="20"/>
+
+            <!-- Fila 3 -->
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="2" Content="1" Margin="10,5,10,5" FontSize="20" HorizontalAlignment="Center" Width="105"/>
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="2" Content="2" Margin="2,5,10,5" FontSize="20" Grid.Column="1"/>
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="2" Grid.Column="2" Content="3" Margin="2,5,10,5" FontSize="20"/>
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="2" Grid.Column="3" Content="-" Margin="0,5,10,5" FontSize="20" HorizontalAlignment="Center" Width="115"/>
+
+            <!-- Fila 4 -->
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="3" Grid.Column="0" Content="0" Margin="10,5,10,10" FontSize="20"/>
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="3" Content="=" Margin="2,5,10,10" FontSize="20" Grid.Column="1"/>
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="3" Grid.Column="2" Content="," Margin="2,5,10,10" FontSize="20"/>
+            <Button BorderBrush="White" Opacity="0.7" Foreground="MidnightBlue" Grid.Row="3" Grid.Column="3" Content="+" Margin="0,5,10,10" FontSize="20"/>
+        </Grid>
     </Grid>
 </Window>
