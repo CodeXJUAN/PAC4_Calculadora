@@ -44,6 +44,46 @@ Autor de la Licencia: Juan Manuel López Arrieta
 
 ## ✔️ Guia de uso con explicación paso a paso
 
+1. Al iniciar la aplicación, verás la interfaz de la calculadora con botones numéricos y operadores.
+
+2. Para realizar una operación básica:
+   - Introduce el primer número usando los botones numéricos
+   - Selecciona la operación deseada (+, -, *, /)
+   - Introduce el segundo número
+   - Pulsa el botón "=" para ver el resultado
+
+3. Para borrar y empezar una nueva operación:
+   - Pulsa el botón "C" para limpiar la pantalla
+   - La calculadora estará lista para una nueva operación
+
+4. Consideraciones importantes:
+   - La división por cero no está permitida
+   - Los resultados se muestran con decimales cuando es necesario
+   - Puedes encadenar múltiples operaciones
+
 ## 📷 Ejemplos de uso y Capturas de Pantalla
 
+Aquí tienes algunos ejemplos de cómo usar la calculadora y capturas de pantalla:
+
+| Operación | Ejemplo | Resultado|
+|-----------|---------|---------|
+| Suma | ![Captura de pantalla de la calculadora](/media/img/suma_calc.png)|![Captura de pantalla de la calculadora](/media/img/result_suma_calc.png)|
+| Resta |![Captura de pantalla de la calculadora](/media/img/resta_calc.png)|![Captura de pantalla de la calculadora](/media/img/result_resta_calc.png)|
+| Multiplicación | ![Captura de pantalla de la calculadora](/media/img/multi_calc.png)|![Captura de pantalla de la calculadora](/media/img/multi_result_calc.png)|
+| División | ![Captura de pantalla de la calculadora](/media/img/div_calc.png)|![Captura de pantalla de la calculadora](/media/img/result_div_calc.png)|
+| Operaciones Encadenadas | ![Captura de pantalla de la calculadora](/media/img/foto_calc.png)|![Captura de pantalla de la calculadora](/media/img/oper_result_calc.png)|
+
 ## 🤔 Conclusions i reflexions sobre el projecte
+
+Esta aplicacion que he hecho la verdad que me ha parecido entre mas facil y mas llevadera de hacer, ya que puedo ir a mi propio ritmo.
+
+La verdad es que no he tenido mucho problema en el desarrollo, ya que la interficie en si era facil de hacer ya que mas o menos es como una tabla.
+
+El unico problema que he tenido seria como aplicar la logica de las operaciones la verdad, pero lo he sabida solucionar medio rapido.
+
+Si tuviera que mejorar algo en este proyecto seria:
+
+    - Implementar funcionalidades científicas
+    - Añadir soporte para teclado
+    - Mejorar el diseño visual
+    - Implementar historial de operaciones
